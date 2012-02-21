@@ -1,3 +1,3 @@
-test : main.c
-	gcc main.c -o bn.exe
+test : main.c boat.c
+	gcc main.c boat.c -o bn.exe
 
