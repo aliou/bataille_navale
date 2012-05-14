@@ -7,6 +7,7 @@
 
 int main(int argc, const char * argv[]) {
 
+  int i, j;
   boat_type *fleet_player = NULL;
   boat_type *fleet_AI = NULL;
 
@@ -27,5 +28,8 @@ int main(int argc, const char * argv[]) {
       grid_boat_AI[i][j] = '~';
     }
   }
+
+  positioning(grid_boat_player, fleet_player);
+
   return EXIT_SUCCESS;
 }
