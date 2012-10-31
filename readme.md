@@ -7,4 +7,5 @@ This is really simple, and there's probably (a lot of ) memory leaks.
 
 #### Contribute
 Please feel free to contribute, as this class ended without a proper conclusion to this project.
+(Also, this is buggy as fuck and probably has a shitload of memory leaks.)
 
